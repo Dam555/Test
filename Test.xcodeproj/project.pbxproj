@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AD568A1521BA56260023181E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A1421BA56260023181E /* AppDelegate.swift */; };
-		AD568A1721BA56260023181E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A1621BA56260023181E /* ViewController.swift */; };
+		AD568A1721BA56260023181E /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A1621BA56260023181E /* MainController.swift */; };
 		AD568A1A21BA56260023181E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD568A1821BA56260023181E /* Main.storyboard */; };
 		AD568A1D21BA56260023181E /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD568A1B21BA56260023181E /* Test.xcdatamodeld */; };
 		AD568A1F21BA56270023181E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD568A1E21BA56270023181E /* Assets.xcassets */; };
 		AD568A2221BA56270023181E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD568A2021BA56270023181E /* LaunchScreen.storyboard */; };
 		AD568A2D21BA56270023181E /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A2C21BA56270023181E /* TestTests.swift */; };
 		AD568A3821BA56270023181E /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A3721BA56270023181E /* TestUITests.swift */; };
+		AD568A4621BA63A10023181E /* AutoDismissKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A4521BA63A10023181E /* AutoDismissKeyboardView.swift */; };
+		AD568A4821BA66BD0023181E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A4721BA66BD0023181E /* DetailController.swift */; };
+		AD568A4A21BA6BC50023181E /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD568A4921BA6BC50023181E /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		AD568A1121BA56260023181E /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD568A1421BA56260023181E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD568A1621BA56260023181E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD568A1621BA56260023181E /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		AD568A1921BA56260023181E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD568A1C21BA56260023181E /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		AD568A1E21BA56270023181E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		AD568A3321BA56270023181E /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD568A3721BA56270023181E /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		AD568A3921BA56270023181E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD568A4521BA63A10023181E /* AutoDismissKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDismissKeyboardView.swift; sourceTree = "<group>"; };
+		AD568A4721BA66BD0023181E /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		AD568A4921BA6BC50023181E /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				AD568A1421BA56260023181E /* AppDelegate.swift */,
-				AD568A1621BA56260023181E /* ViewController.swift */,
+				AD568A1621BA56260023181E /* MainController.swift */,
+				AD568A4921BA6BC50023181E /* Triangle.swift */,
+				AD568A4721BA66BD0023181E /* DetailController.swift */,
+				AD568A4521BA63A10023181E /* AutoDismissKeyboardView.swift */,
 				AD568A1821BA56260023181E /* Main.storyboard */,
 				AD568A1E21BA56270023181E /* Assets.xcassets */,
 				AD568A2021BA56270023181E /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD568A1721BA56260023181E /* ViewController.swift in Sources */,
+				AD568A1721BA56260023181E /* MainController.swift in Sources */,
+				AD568A4A21BA6BC50023181E /* Triangle.swift in Sources */,
+				AD568A4621BA63A10023181E /* AutoDismissKeyboardView.swift in Sources */,
 				AD568A1521BA56260023181E /* AppDelegate.swift in Sources */,
+				AD568A4821BA66BD0023181E /* DetailController.swift in Sources */,
 				AD568A1D21BA56260023181E /* Test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
